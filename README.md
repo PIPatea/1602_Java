@@ -25,7 +25,7 @@ git push
 
 ### Why did you move the residential and commercial math out of the event listeners and into their own functions?
 
-so they would not depend on one varible that i needed to use and so it would not be any inference with said varible if they have there own math
+since the residential and commercial were using the number of floors input i could not make it a adventlistner for users to use they are better of as there own fuctions because they work better that way instead of depending on other varibles
 
 
 
@@ -33,7 +33,7 @@ so they would not depend on one varible that i needed to use and so it would not
 
 
 ### What does .value do in JavaScript?
-so the user can use the input associated with the value
+ access or manipulate the value of an object
 
 
 
